@@ -55,7 +55,7 @@
 ## 5. Crypto
 
 - Makeshift - COMPLETED
-- Dynastic
+- Dynastic - COMPLETED
 - ROT128
 - Tsayaki
 - Permuted
@@ -76,7 +76,7 @@
 - Pet Companion
 - Writing on the Wall
 - Delulu
-- Tutorial
+- Tutorial - COMPLETED
 
 ## 7. Blockchain
 
