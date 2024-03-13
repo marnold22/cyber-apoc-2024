@@ -19,7 +19,7 @@
 
 - Urgent - COMPLETED
 - An Unusual Sighting - COMPLETED
-- Fake Boost
+- Fake Boost - COMPLETED
 - Phreaky
 - Oblique Final
 - Confinemnet
