@@ -25,7 +25,7 @@
 - Confinemnet
 - Game Invitation
 - Data Siege
-- Pursue The Tracks
+- Pursue The Tracks - COMPLETED
 - It Has Begun
 
 ## 3. Web

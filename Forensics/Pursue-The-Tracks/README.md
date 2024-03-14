@@ -1,8 +1,8 @@
 # Pursue-The-Tracks
 
-## FLAG: HTB{}
+## FLAG: HTB{p4rs1ng_mft_1s_v3ry_1mp0rt4nt_s0m3t1m3s}
 
-## Status: Incomplete
+## Status: Complete
 
 + DOCKER: Yes
 + DOWNLOADABLE: Yes
@@ -23,6 +23,8 @@ Description: Luxx, leader of The Phreaks, immerses himself in the depths of his 
 4. ANALYZE MFT
    1. Using the analyzeMFT python tool lets try running it on our file
       1. > python3 analyzeMFT.py -f z.mft -o export_data
+   2. Use the Eric Zimmerman MFTExplorer / MFTCmd tool
+      1. > MFTECmd.exe -f ./z.mft --csv ./
 5. INTERACT WITH DOCKER
    1. > nc 83.136.250.12 52702
 
@@ -31,11 +33,23 @@ Description: Luxx, leader of The Phreaks, immerses himself in the depths of his 
         ```
 
    2. QUESTIONS:
-      1. Files are related to two years, which are those? (for example: 1993,1995) 
+      1. Files are related to two years, which are those? (for example: 1993,1995)
          1. 2023,2024
-      2. There are some documents, which is the name of the first file written? (for example: randomname.pdf) 
+      2. There are some documents, which is the name of the first file written? (for example: randomname.pdf)
          1. Final_Annual_Report.xlsx
       3. Which file was deleted? (for example: randomname.pdf)
          1. Marketing_Plan.xlsx
       4. How many of them have been set in Hidden mode? (for example: 43)
-         1. 
+         1. 1 (This is because the rest are system files)
+      5. Which is the filename of the important TXT file that was created? (for example: randomname.txt)
+         1. credentials.txt
+      6. A file was also copied, which is the new filename? (for example: randomname.pdf)
+         1. Financial_Statement_draft.xlsx
+      7. Which file was modified after creation? (for example: randomname.pdf)
+         1. Project_Proposal.pdf
+      8. What is the name of the file located at record number 45? (for example: randomname.pdf)
+         1. Annual_Report.xlsx
+      9. What is the size of the file located at record number 40? (for example: 1337)
+         1. 57344
+6. FLAG
+   1. [+] Here is the flag: `HTB{p4rs1ng_mft_1s_v3ry_1mp0rt4nt_s0m3t1m3s}`
